@@ -9,4 +9,5 @@ Purpose : Map requirements (user stories) to implementation and tests, and show 
 'test_borrow_book', 'test_borrow_unavailable_book' | v0.2 | Done |
 | US3    | Return a borrowed book                | Sprint -2 | 'src/library.py' -> 'Library.return_book()' | 'tests/test_library.py' -> 
 'test_return_book' | v0.2 | Done |
-| US4    | Generate library status report        | Sprint -3 |                       |                      |             | Planned |
+| US4    | Generate library status report        | Sprint -3 | 'src/library.py' -> 'Library.generate_report()' | 'tests/test_library.py' -> 
+'test_generate_report_header', 'test_generate_report_contains_book'  | v0.3 | Done |
